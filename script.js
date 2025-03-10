@@ -6,12 +6,9 @@ document.addEventListener('DOMContentLoaded',function(){
       document.body.style.fontSize = `${tamanhoAtualFonte}rem`
 
   });
-});
-document.addEventListener('DOMContentLoaded',function(){
-  const diminuiFonteBotao.addEventListener = document.getElementById('aumentar fonte');
- let tamanhoAtualFonte = 1;
+
  diminuiFonteBotao. addEventListener('click', function( ){
-      tamanhoAtualFonte += 0.1;
+      tamanhoAtualFonte -= 0.1;
       document.body.style.fontSize = `${tamanhoAtualFonte}rem`
 
   });
